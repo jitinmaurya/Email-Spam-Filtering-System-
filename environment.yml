@@ -1,0 +1,22 @@
+name: spamham
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  # core numerics / data
+  - numpy=1.26.4
+  - pandas
+  - scipy
+  # ml stack
+  - scikit-learn
+  - xgboost
+  # nlp
+  - nltk
+  - wordcloud
+  # plotting
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  # notebooks / kernel
+  - ipykernel
+  - jupyterlab
