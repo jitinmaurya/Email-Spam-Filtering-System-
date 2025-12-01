@@ -1,0 +1,33 @@
+{
+  "model": "mnb",
+  "model_name": "MNB(alpha=0.3)",
+  "ngram": "1-2",
+  "min_df": 5,
+  "max_df": 0.95,
+  "max_features": 30000,
+  "threshold_mode": "balanced",
+  "threshold_used": 0.45000000000000007,
+  "accuracy": 0.9912514827995255,
+  "roc_auc": 0.9991075902120412,
+  "pr_auc": 0.999056508874311,
+  "spam_P": 0.9881434355118566,
+  "spam_R": 0.994759825327511,
+  "spam_F1": 0.991440591904831,
+  "ham_P": 0.9945222154595252,
+  "ham_R": 0.9876095497129042,
+  "ham_F1": 0.9910538286580743,
+  "TN": 3268,
+  "FP": 41,
+  "FN": 18,
+  "TP": 3417
+}
+
+==== classification_report ====
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99      3309
+        spam       0.99      0.99      0.99      3435
+
+    accuracy                           0.99      6744
+   macro avg       0.99      0.99      0.99      6744
+weighted avg       0.99      0.99      0.99      6744

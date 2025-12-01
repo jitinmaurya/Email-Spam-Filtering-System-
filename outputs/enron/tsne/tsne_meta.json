@@ -1,0 +1,22 @@
+{
+  "csv": "C:\\Users\\HAE\\Projects\\concordia-ml\\Email-Spam-Filtering-System--1\\data\\enron.csv",
+  "used_rows": 2000,
+  "random_state": 42,
+  "perplexity": 30.0,
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 3,
+    "max_df": 0.98
+  },
+  "svd_components": 50,
+  "cols_used": {
+    "labelcol": "Spam/Ham",
+    "textcol": null,
+    "subjectcol": "Subject",
+    "bodycol": "Message",
+    "idcol": "Message ID"
+  }
+}
