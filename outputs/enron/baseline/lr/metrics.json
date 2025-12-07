@@ -1,0 +1,18 @@
+{
+  "model": "lr",
+  "dataset": "enron",
+  "threshold": 0.55,
+  "accuracy": 0.9909054962435745,
+  "spam_precision": 0.9880401234567902,
+  "spam_recall": 0.9941770186335404,
+  "spam_f1": 0.9910990712074303,
+  "ham_precision": 0.9939172749391728,
+  "ham_recall": 0.9875100725221596,
+  "ham_f1": 0.9907033144704932,
+  "tn": 2451,
+  "fp": 31,
+  "fn": 15,
+  "tp": 2561,
+  "notes": "Derived from threshold_table.csv",
+  "macro_f1": 0.9909011928389617
+}

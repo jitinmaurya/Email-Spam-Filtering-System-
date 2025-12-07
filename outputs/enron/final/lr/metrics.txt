@@ -1,0 +1,33 @@
+{
+  "model": "lr",
+  "model_name": "LR(C=3.0)",
+  "ngram": "1-2",
+  "min_df": 5,
+  "max_df": 0.95,
+  "max_features": 30000,
+  "threshold_mode": "balanced",
+  "threshold_used": 0.6,
+  "accuracy": 0.994661921708185,
+  "roc_auc": 0.9995574242186301,
+  "pr_auc": 0.9995466750443923,
+  "spam_P": 0.9930374238468234,
+  "spam_R": 0.9965065502183406,
+  "spam_F1": 0.994768962510898,
+  "ham_P": 0.9963603275705186,
+  "ham_R": 0.9927470534904805,
+  "ham_F1": 0.9945504087193461,
+  "TN": 3285,
+  "FP": 24,
+  "FN": 12,
+  "TP": 3423
+}
+
+==== classification_report ====
+              precision    recall  f1-score   support
+
+         ham       1.00      0.99      0.99      3309
+        spam       0.99      1.00      0.99      3435
+
+    accuracy                           0.99      6744
+   macro avg       0.99      0.99      0.99      6744
+weighted avg       0.99      0.99      0.99      6744

@@ -1,0 +1,17 @@
+{
+  "model": "lr",
+  "dataset": "enron",
+  "best_score_PR_AUC_cv_mean": 0.9981849405250953,
+  "best_params": {
+    "tfidf__ngram_range": [
+      1,
+      1
+    ],
+    "tfidf__min_df": 3,
+    "tfidf__max_df": 0.9,
+    "clf__penalty": "l2",
+    "clf__class_weight": "balanced",
+    "clf__C": 100.0
+  },
+  "n_train_used_for_tuning": 8000
+}

@@ -1,0 +1,14 @@
+# .gitignore (add to repo root)
+# Large raw data
+data/*.zip
+data/*.7z
+
+# Heavy outputs (keep only small JSON/CSV/PNG that you want in the paper)
+outputs/**/*.pkl
+outputs/**/*.npz
+outputs/**/tsne_*.npy
+
+# Python cruft
+*.pyc
+__pycache__/
+.venv/

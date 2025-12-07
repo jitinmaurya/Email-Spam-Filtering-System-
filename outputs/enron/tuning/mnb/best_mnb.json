@@ -1,0 +1,16 @@
+{
+  "model": "mnb",
+  "dataset": "enron",
+  "best_score_PR_AUC_cv_mean": 0.9985155398526488,
+  "best_params": {
+    "tfidf__ngram_range": [
+      1,
+      2
+    ],
+    "tfidf__min_df": 3,
+    "tfidf__max_df": 0.9,
+    "clf__fit_prior": false,
+    "clf__alpha": 0.038986037025490715
+  },
+  "n_train_used_for_tuning": 8000
+}

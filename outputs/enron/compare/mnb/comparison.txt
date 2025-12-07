@@ -1,0 +1,8 @@
+Baseline file: outputs/enron_mnb/metrics.json
+Tuned file   : outputs/enron/final/mnb/metrics.json
+accuracy: baseline=nan  tuned=0.9912514827995255  delta=nan
+spam_precision: baseline=nan  tuned=nan  delta=nan
+spam_recall: baseline=nan  tuned=nan  delta=nan
+macro_f1: baseline=nan  tuned=nan  delta=nan
+pr_auc: baseline=0.9996129569093546  tuned=0.999056508874311  delta=-0.0005564480350436218
+roc_auc: baseline=0.9996160241940731  tuned=0.9991075902120412  delta=-0.0005084339820319306
