@@ -1,0 +1,25 @@
+{
+  "model": "lr",
+  "best_params": {
+    "tfidf__ngram_range": [
+      1,
+      1
+    ],
+    "tfidf__min_df": 10,
+    "tfidf__max_df": 0.95,
+    "clf__class_weight": "balanced",
+    "clf__C": 100.0
+  },
+  "threshold_used": 0.9782111644744873,
+  "accuracy": 0.9595195729537367,
+  "precision": 0.9987381703470032,
+  "recall": 0.9216885007278021,
+  "f1": 0.958667676003028,
+  "roc_auc": 0.9994042096826484,
+  "pr_auc": 0.9994256697675796,
+  "TN": 3305,
+  "FP": 4,
+  "FN": 269,
+  "TP": 3166,
+  "mode": "high_precision"
+}

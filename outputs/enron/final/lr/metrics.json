@@ -1,24 +1,26 @@
 {
   "model": "lr",
-  "model_name": "LR(C=3.0)",
-  "ngram": "1-2",
-  "min_df": 5,
-  "max_df": 0.95,
-  "max_features": 30000,
-  "threshold_mode": "balanced",
-  "threshold_used": 0.6,
-  "accuracy": 0.994661921708185,
-  "roc_auc": 0.9995574242186301,
-  "pr_auc": 0.9995466750443923,
-  "spam_P": 0.9930374238468234,
-  "spam_R": 0.9965065502183406,
-  "spam_F1": 0.994768962510898,
-  "ham_P": 0.9963603275705186,
-  "ham_R": 0.9927470534904805,
-  "ham_F1": 0.9945504087193461,
-  "TN": 3285,
-  "FP": 24,
-  "FN": 12,
-  "TP": 3423,
-  "dataset": "enron"
+  "mode": "balanced",
+  "threshold_used": 0.4602563029093278,
+  "accuracy": 0.9909549228944247,
+  "precision": 0.9870092378752887,
+  "recall": 0.9953420669577875,
+  "f1": 0.9911581388607045,
+  "roc_auc": 0.999430691207386,
+  "pr_auc": 0.999445375784807,
+  "TN": 3264,
+  "FP": 45,
+  "FN": 16,
+  "TP": 3419,
+  "best_params": {
+    "tfidf__ngram_range": [
+      1,
+      1
+    ],
+    "tfidf__min_df": 10,
+    "tfidf__max_df": 0.95,
+    "clf__penalty": "l2",
+    "clf__class_weight": null,
+    "clf__C": 18.73817422860385
+  }
 }
